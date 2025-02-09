@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://edtech-planet.vercel.app";
+export const BACKEND_URL = "https://edtechplanet.onrender.com";
