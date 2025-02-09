@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://edtechplanet.onrender.com";
+export const BACKEND_URL = "https://edtechplanet.onrender.com/api/v1";
