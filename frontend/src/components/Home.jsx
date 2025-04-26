@@ -94,11 +94,14 @@ function Home() {
   return (
     <>
         <div className="bg-gradient-to-r from-black to-blue-950 ">
-            <div className="text-white  mx-10 p-2 ">
-                <header className="flex items-center justify-between p-2">
+            <div className="h-[1250px] md:h-[1050px] text-white container mx-auto ">
+                <header className="flex items-center justify-between p-6">
                     <div className='flex items-center space-x-2'>
-                        <img src={ logo } alt="logo" className='w-10 h-10 rounded-full' />
-                        <h1 className='text-2xl text-orange-500 font-bold '>edTech Planet</h1>
+                        <img 
+                            src={ logo } 
+                            alt="logo" 
+                            className='w-7 h-7 md:w-10 md:h-10 rounded-full' />
+                        <h1 className='md:text-2xl text-orange-500 font-bold '>edTech Planet</h1>
                     </div>
                     <div className="space-x-4">
                         {isLoggedIn ? (
@@ -127,7 +130,7 @@ function Home() {
                     </div>
                 </header>
 
-                <section className=' text-center pt-20 '>
+                <section className=' text-center py-20 '>
                     <h1 className='text-4xl font-semibold text-orange-500'>edTech Planet</h1>
                     <br />
                     <p className=' text-grey-500 '>
@@ -148,7 +151,7 @@ function Home() {
                         </Link>
                     </div>
                 </section>
-                <section className='p-4'>
+                <section className='p-10'>
                     <div className="slider-container">
                         
                         <Slider {...settings} >
@@ -184,21 +187,21 @@ function Home() {
                             <div className='mt-3 ml-2 md:ml-8'>
                                 <p className='mb-2 '>Follow us</p>
                                 <div className='flex space-x-4'>
-                                    <a href="">< TiSocialFacebookCircular className='text-2xl hover:text-blue-400'/></a>
-                                    <a href="">< TiSocialInstagram className='text-2xl hover:text-pink-600'/></a>
-                                    <a href="">< TiSocialTwitter className='text-2xl hover:text-blue-600'/></a>
+                                    <a href="">< TiSocialFacebookCircular className='text-2xl hover:text-blue-400 duration-300'/></a>
+                                    <a href="">< TiSocialInstagram className='text-2xl hover:text-pink-600 duration-300'/></a>
+                                    <a href="">< TiSocialTwitter className='text-2xl hover:text-blue-600 duration-300'/></a>
                                 </div>
                             </div>
                         </div>
-                        <div className='items-center flex flex-col'>
-                            <h3 className='text-lg font-semibold mb-4'>Connects</h3>
+                        <div className='hidden md:items-center mt-6 md:mt-0 flex flex-col'>
+                            <h3 className='text-lg font-semibold md:mb-4'>Connects</h3>
                             <ul className=' space-y-2 text-gray-400'>
                                 <li className='hover:text-white cursor-pointer duration-300 '>Youtube- edTech Platform</li>
                                 <li className='hover:text-white cursor-pointer duration-300 '>Telegram- edTech Platform</li>
                                 <li className='hover:text-white cursor-pointer duration-300 '>Github- edTech Platform</li>
                             </ul>
                         </div>
-                        <div className="items-center mt-6 md:mt-0 flex flex-col">
+                        <div className="hidden md:items-center mt-6 md:mt-0 flex flex-col">
                             <h3 className="text-lg font-semibold mb-4">Copyrights &#169; 2025</h3>
                             <ul className=' space-y-2 text-gray-400'>
                                 <li className='hover:text-white cursor-pointer duration-300 '>Terms & Conditions</li>
