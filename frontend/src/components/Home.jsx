@@ -193,7 +193,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='hidden md:items-center mt-6 md:mt-0 flex flex-col'>
+                        <div className='items-center mt-6 md:mt-0 flex flex-col'>
                             <h3 className='text-lg font-semibold md:mb-4'>Connects</h3>
                             <ul className=' space-y-2 text-gray-400'>
                                 <li className='hover:text-white cursor-pointer duration-300 '>Youtube- edTech Platform</li>
@@ -201,7 +201,7 @@ function Home() {
                                 <li className='hover:text-white cursor-pointer duration-300 '>Github- edTech Platform</li>
                             </ul>
                         </div>
-                        <div className="hidden md:items-center mt-6 md:mt-0 flex flex-col">
+                        <div className="items-center mt-6 md:mt-0 flex flex-col">
                             <h3 className="text-lg font-semibold mb-4">Copyrights &#169; 2025</h3>
                             <ul className=' space-y-2 text-gray-400'>
                                 <li className='hover:text-white cursor-pointer duration-300 '>Terms & Conditions</li>
