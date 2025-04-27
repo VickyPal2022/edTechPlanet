@@ -48,25 +48,25 @@ function Signup() {
   return (
     <>
       <div className="bg-gradient-to-r from-black to-blue-950 ">
-        <div className=" text-white  mx-10  p-2">
-          <header className="flex items-center justify-between p-2">
+        <div className="h-screen container mx-auto flex  items-center justify-center text-white">
+          <header className="absolute top-0 left-0 w-full flex justify-between items-center p-5 ">
             <div className='flex items-center space-x-2'>
               <img src={ logo } alt="logo" className='w-10 h-10 rounded-full' />
               <h1 className='text-2xl text-orange-500 font-bold '>edTech Planet</h1>
             </div>
-            <div className='spacex-4 flex gap-4'>
-              <Link to={"/login"} className='border-transparent text-white py-2 px-4 border border-white rounded'>
+            <div className='flex items-center space-x-4'>
+              <Link to={"/login"} className='bg-transparent border border-gray-500 p-1 text-sm md:text-md md:py-2 md:px-4 rounded-md'>
                 Login
               </Link>
-              <Link to={"/courses"} className='border-transparent text-white py-2 px-4 border border-white rounded'>
+              <Link to={"/courses"} className='bg-orange-500 p-1 text-sm md:text-md md:py-2 md:px-4 rounded-md'>
                 Join now
               </Link>
             </div>
           </header>
 
           {/* Signup Form */}
-          <div className="h-screen container mx-auto flex  items-center justify-center text-white">
-            <div className="bg-gray-900 p-8  rounded-lg shadow-lg w-[500px] mt-20">
+          <div className="bg-gray-900 p-8 rounded-lg shadow-lg w-[500px] m-8 md:m-0 mt-20">
+            <div className="text-2xl font-bold mb-4 text-center">
               <h2 className="text-2xl font-bold mb-4 text-center ">
                 Welcome to <span className="text-orange-500">edTech Planet</span>
               </h2>
